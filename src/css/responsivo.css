@@ -1,0 +1,72 @@
+@media(max-width: 1240px){
+    .sona-fundo{
+        display: none;
+    }
+
+    body{
+        background-color: #8c2742da;
+    }
+    
+    main{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main .conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .conteudo p{
+        color: #ffffff;
+        opacity: 0.8;
+        text-align: center;
+    }
+
+    main .botao-trailer{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 666px){
+    header{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    header .sona-logo{
+        margin-bottom: 15px;
+    }
+
+    main .sona-imagem{
+        max-width: 400px;
+        width: 100%;
+    }
+
+    #video{
+        width: 450px;
+        height: 318px;
+    }
+}
+
+@media(max-width: 517px){
+    main .conteudo .sona-titulo{
+        max-width: 350px;
+        width: 100%;
+    }
+
+    main .conteudo p{
+        font-size: 15px;
+    }
+
+    #video{
+        width: 300px;
+        height: 212px;
+    }
+
+    main .sona-imagem{
+        padding-bottom: 10px;
+    }
+}
